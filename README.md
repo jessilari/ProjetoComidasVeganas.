@@ -20,15 +20,16 @@ flask shell
 from app import db
 db.create_all()
 
- titulo = Comida(titulo= "colocamos o titulo da comida")
- foto = Comida(foto= "colocamos o link da imagem")
- preco = Comida(preco="colocamos o preco da comida")
+titulo = Comida(titulo= "colocamos o titulo da comida")
+foto = Comida(foto= "colocamos o link da imagem")
+preco = Comida(preco="colocamos o preco da comida")
 
 db.session.add(titulo)
 db.session.add(foto)
 db.session.add(preco)
 db.session.commit
 # CTRL+D para sair
+exit()
 ```
 
 E executar a aplicação
