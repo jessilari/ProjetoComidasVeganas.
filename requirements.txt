@@ -28,7 +28,7 @@ configobj==4.7.2
 configparser==3.7.1
 cookiecutter==1.6.0
 dateparser==0.7.1
-Django==1.11.10
+Django==1.11.28
 docker==3.7.1
 docker-compose==1.23.2
 docker-pycreds==0.4.0
